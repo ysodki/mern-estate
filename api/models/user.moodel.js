@@ -20,4 +20,4 @@ const userShema = new mongoose.Schema({
 // To create the model 
 const User = mongoose.model('User' , userShema);
 
-export default User;
+export default User;    
