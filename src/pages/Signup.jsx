@@ -59,7 +59,7 @@ const Signup = () => {
                 />
                 <input
                     type='password'
-                    placeholder='username'
+                    placeholder='password'
                     className='border p-3 rounded-lg'
                     id="password"
                     onChange={handleChange}
