@@ -17,6 +17,7 @@ mongoose.connect(process.env.MONGO, { useNewUrlParser: true, useUnifiedTopology:
 app.use(express.json()); 
 app.use('/api/user' , userRouter);
 app.use("/api/auth" , authRouter);
+
 app.listen(port , ()=>{
     console.log(`Server is runing on port ${port}`);
 });
